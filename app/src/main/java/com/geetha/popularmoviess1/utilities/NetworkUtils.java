@@ -22,7 +22,8 @@ public class NetworkUtils {
     private static final String POPULAR_MOVIES="popular";
     private static final String TOP_RATED="top_rated";
     private  final static String QUERY_PARAM = "api_key";
-    private final static String API_KEY="744a4b5659ea244093bb804a8dd0e0ea";
+    //Deleted the key as per guidelines
+    private final static String API_KEY="";
 
     public static URL buildUrl(String query) {
 

@@ -42,9 +42,9 @@ public class Movie {
         this.releaseDate = releaseDate;
     }
 
-    String title;
-    String posterPath;
-    String plotSynopsis;
-    String userRating;
-    String releaseDate;
+    public String title;
+    public String posterPath;
+    public String plotSynopsis;
+    public String userRating;
+    public String releaseDate;
 }

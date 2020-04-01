@@ -13,8 +13,8 @@
         android:supportsRtl="true"
         android:usesCleartextTraffic="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.geetha.popularmoviess1.DetailActivity"></activity>
-        <activity android:name="com.geetha.popularmoviess1.WelcomeActivity" >
+        <activity android:name="com.geetha.popularmoviess1.activity.DetailActivity"></activity>
+        <activity android:name="com.geetha.popularmoviess1.activity.WelcomeActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
