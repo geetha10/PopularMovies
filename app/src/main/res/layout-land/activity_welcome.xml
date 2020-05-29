@@ -17,10 +17,11 @@
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rv_movieslist"
             android:layout_width="match_parent"
-            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
-            app:spanCount="2"
+            app:layoutManager="androidx.recyclerview.widget.StaggeredGridLayoutManager"
+            app:spanCount="3"
             android:layout_height="match_parent"
             tools:listitem="@layout/item_movie"
             />
+
     </FrameLayout>
 </LinearLayout>
